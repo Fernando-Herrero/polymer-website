@@ -1,0 +1,234 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, li,
+figure, figcaption,
+blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+    border-radius: 5px;
+}
+.shadow {
+    box-shadow: 8px 11px 32px -3px rgba(88,88,88,0.85);
+}
+p {
+    line-height: 25px;
+}
+.background-1 {
+    background: rgb(251, 215, 255);
+    background: linear-gradient(162deg, rgba(251,215,255,1) 0%, rgba(255,222,193,1) 100%);
+    border-radius: 5px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.flex-1 {
+    display: flex;
+    gap: 10px;
+}
+#logo {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+.button-1 {
+    background-color: #e7e7e7;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.button-2 {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#padding {
+    padding: 100px 245px;
+}
+.grey-letter {
+    color: #555;
+}
+#align-center {
+    text-align: center;
+}
+.button-3 {
+    background-color: #e7e7e7c9;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+}
+/*main*/
+.background-2 {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+#helping {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.flex-2 {
+    display: flex;
+    gap: 50px;
+}
+#card {
+    margin-left: 670px;
+    margin-top: 80px;
+}
+.colour-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    padding: 70px 0;
+}
+main h2 {
+    width: 350px;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.div-container {
+    display: flex;
+    gap: 40px;
+}
+.div-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+}
+.div-box a {
+    width: 113px;
+}
+.text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.grey-section {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    padding: 70px 0;
+}
+.flex-3 {
+    display: flex;
+    gap: 10px;
+}
+.background-3 {
+    background-color: black;
+    border-radius: 5px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.background-3 h2 {
+    color: #FBD7FF;
+    text-align: center;
+}
+.background-3 h4 {
+    color: white;
+}
+.background-3 p {
+    color: #555555;
+}
+.black-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 70px 0;
+}
+.div-img-text {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+.grey-section-padding {
+    padding: 70px 0;
+    gap: 50px;
+}
+.text-align {
+    text-align: center;
+    width:550px
+}
+#padding-2 {
+    width: 400px;
+}
+.text-align-start {
+    text-align: start;
+    width: 450px;
+}
+.card {
+    padding-left: 660px;
+}
+#get-started {
+    padding-top: 350px;
+    padding-bottom: 100px;
+}
+.last-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+footer h4 {
+    color: white;
+}
+footer li {
+    color: #555555;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-padding {
+    padding: 70px 0;
+}
+.footer-padding-bottom {
+    padding-bottom: 120px;
+}
+footer p {
+    width: 400px;
+}

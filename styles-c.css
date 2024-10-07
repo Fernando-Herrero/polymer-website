@@ -1,0 +1,14 @@
+.first-div-blog {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    padding-bottom: 70px;
+}
+.second-div-blog {
+    display: flex;
+    padding: 0 200px 70px 70px;
+    flex: 3;
+}
+.p-changelog {
+    padding-left: 50px;
+}
